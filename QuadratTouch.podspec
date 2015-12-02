@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
   s.resources     = 'Source/iOS/*.{xib}'
 
   s.ios.deployment_target = "8.0"
+  s.watchos.deployment_target = "2.0"
 
 end
